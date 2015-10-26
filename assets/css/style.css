@@ -1,0 +1,53 @@
+/* 
+    Created on : 25/10/2015, 20:41:12
+    Author     : Frossard
+*/
+body, div, dl, dt, dd, ul, ol, li, pre, form, fieldset, input, textarea, th, td {margin:0; padding:0;}
+
+body{ font-family: 'Droid Sans', sans-serif;}
+
+.logomarca{ width: 100%; float: left; text-align: center; margin-top: 20px;}
+
+.container-full, .largura100{ width: 100%; float: left;}
+
+.container{ margin: 0 auto;}
+
+/* Responsividade */
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    width: 992px;
+  }
+}
+@media (min-width: 1146px) {
+  .container {
+    width: 1146px;
+  }
+}
+
+nav{ background: #555;}
+.menu{ list-style: none;}
+.menu li{ float: left;}
+.menu li a{ float: left; padding: 10px 15px; text-decoration: none; color: #fff;}
+
+.largura30{ width: 30%; float: left; background: #c5c5c5;}
+.largura50{ width: 50%; float: left; background: #c1c1c1;}
+.largura70{ width: 70%; float: left; background: #dedede;}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .largura30, .largura50, .largura70{ width: 100%;}
+}
+
+/* Alturas e cores */
+#cabecalho .largura30, #cabecalho .largura70{ height: 150px;}
+#Banner-site .largura100{ height: 300px; background: #cecece;}
+#noticias .largura100{ height: 50px; background: #dedede;}
+#noticias .largura50{ height: 200px; background: #ededed;}
+#noticias #noticia2{ background: #cecece}
+#rodape .largura100{ height: 100px; background: #c5c5c5;}
+
