@@ -1,2 +1,2 @@
-# HTML5-na-pratica
-Repositório do Curso de HTML5 na prática
+# html5-semantics
+This is a example code using semantics html5.
